@@ -6,3 +6,27 @@
 # In your final submission: 
 #  - Do not print anything extraneous!
 #  - Do not put anything but pass in main()
+
+
+#Body
+
+t = [1, 2, 3]
+
+def cumulative_sum(t):
+    t1 = []
+    a = 0
+    b = 0
+    for i in t:
+        b = a + i
+        t1.append(b)
+        a = b
+    return t1
+    print t1
+        
+
+##############################################################################
+def main():
+    pass
+
+if __name__ == '__main__':
+    main()
